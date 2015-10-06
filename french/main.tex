@@ -1,0 +1,177 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{5cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Thibaut} % Your first name
+\familyname{Vercueil} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{61 rue Vasco de Gama}{75015 Paris}
+\mobile{+33 7 81 56 65 81}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{thibaut@europe.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{Recherche un stage de 6 mois dans le domaine de l'informatique et des systèmes embarqués}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%------------------------
+%	Profil SECTION
+%-------------------------
+
+\section{Profil}
+
+\cvitem{}{\textbf{22 ans}}
+\cvitem{}{Né le 21/06/1993 à Obernai (67)}
+\cvitem{}{Détenteur du permis B depuis 2011}
+
+%-------------------
+%	CURSUS
+%-------------------
+
+\section{Cursus}
+
+\cventry{Situation actuelle}{Etudiant en dernière année d'école d'ingéneieur}{\textsc{école centrale d'éléctronique}}{Paris}{Filère systèmes embarqués}{}
+
+%------------------------------------------------
+
+\cventry{2011--2013}{Classes préparatoires aux grandes écoles}{\textsc{Lycée Vaugelas}}{Chambéry}{}{Filière Maths-Physique}
+
+%------------------------------------------------
+
+\cventry{2008--2011}{Bachelier}{\textsc{Lycée du Granier}}{La Ravoire, Savoie}{}{Baccalauréat Scientifique européen anglais spécialité mathématiques avec mention.}
+
+
+
+\section{Expérience}
+
+%HARVARD
+\cventry{Mai -- Aout 2015}{Stage à l'Université de Harvard}{États Unis}{}{}{Développment d'un site web de gestion de contenu pour un groupe de recherche}
+
+%GEOSAVE
+\cventry{Septembre -- Mai 2015}{Developpement d'un projet académique d'un système de géolocalisation pour l'aide aux victimes d'arrêts cardiaque}{en partenariat avec la Croix-Rouge française}{Développement Java Android, serveur en Node.js, interface web en HTML/CSS}{}{}
+
+%JOBSERVICE
+\cvitem{2014--2015}{Webmaster d'une association étudiante d'intérim}
+
+%GARAGISTE
+\cvitem{2014}{Emploi d'agent d'entretien qualifié au service garage du CHS de la Savoie}
+
+%----------------------------------------------------------------------------------------
+%	Compétences
+%----------------------------------------------------------------------------------------
+
+% \section{Compétences}
+% %\subsection{Bureautique}
+% %\cvitem{Langues} Très bon niveau d'anglais
+% \cvitem{Bureautique}{Maîtrise de la suite Microsoft office}
+% \cvitem{Informatique}{Web : \textsc{JavaScript / PHP / HTML5 / CSS3 / SQL}}
+% \cvitem{}{ \textsc{C / JAVA / Matlab /} \LaTeX }
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Compétences}
+
+\cvitem{Langues}{\textbf{Anglais :  Courant (IELTS score 7)}}
+\cvitem{}{Espagnol : Notions}
+\cvitem{}{Français : Langue maternelle}
+
+\cvitem{Bureautique}{Maitrise de la suite Microsoft Office}
+
+\cvitem{Informatique}{\textbf{Web :} \textsc{html / css / javascript / jquery / php / sql / node.js}}
+\cvitem{}{\textsc{c} / \textsc{c++} / \textsc{c\#} / \textsc{java} / \textsc{python} / \LaTeX / Matlab / Linux}
+
+\cvitem{Électronique}{Programmation en assembleur et en C sur microcontrôleurs PIC16F et PIC18F}
+\cvitem{}{Développement d’applications de traitement de signal sur DSP blackfin}
+\cvitem{}{Développement en VHDL sur FPGA}
+\cvitem{}{Programmation sur cartes de développement Arduino et Raspberry Pi}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Piano}{Chess}
+\cvlistdoubleitem{Cooking}{Dancing}
+\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+%
+% % To remove the cover letter, comment out this entire block
+%
+% \clearpage
+%
+% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+% \makelettertitle % Print letter title
+%
+% \lipsum[1-3] % Dummy text
+%
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
