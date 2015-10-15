@@ -35,7 +35,8 @@
 \usepackage[T1]{fontenc}
 
 
-\usepackage[scale=0.8]{geometry} % Reduce document margins
+\usepackage{geometry} % Reduce document margins
+\geometry{hmargin=1cm,vmargin=1cm}
 \setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{5cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -53,6 +54,7 @@
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{thibaut@europe.com}
+
 %\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 %\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
@@ -69,8 +71,6 @@
 %-------------------------
 
 \section{Profil}
-
-\cvitem{}{\textbf{22 ans}}
 \cvitem{}{Né le 21/06/1993 à Obernai (67)}
 \cvitem{}{Détenteur du permis B depuis 2011}
 
@@ -80,7 +80,7 @@
 
 \section{Cursus}
 
-\cventry{Situation actuelle}{Etudiant en dernière année d'école d'ingéneieur}{\textsc{école centrale d'éléctronique}}{Paris}{Filère systèmes embarqués}{}
+\cventry{\footnotesize{Situation actuelle}}{Étudiant en dernière année d'école d'ingénieurs}{\textsc{École Centrale d'Électronique}}{Paris}{Filère systèmes embarqués}{}
 
 %------------------------------------------------
 
@@ -88,20 +88,20 @@
 
 %------------------------------------------------
 
-\cventry{2008--2011}{Bachelier}{\textsc{Lycée du Granier}}{La Ravoire, Savoie}{}{Baccalauréat Scientifique européen anglais spécialité mathématiques avec mention.}
+\cventry{2008--2011}{Bachelier}{\textsc{Lycée du Granier}}{La Ravoire, Savoie}{}{Baccalauréat Scientifique européen anglais spécialité mathématiques avec mention}
 
 
 
 \section{Expérience}
 
 %HARVARD
-\cventry{Mai -- Aout 2015}{Stage à l'Université de Harvard}{États Unis}{}{}{Développment d'un site web de gestion de contenu pour un groupe de recherche}
+\cventry{2015 \footnotesize{mai -- août}}{Stage à l'Université de Harvard}{Massachusetts, États Unis}{}{}{Développment d'un site web de gestion de contenu pour un groupe de recherche}
 
 %GEOSAVE
-\cventry{Septembre -- Mai 2015}{Developpement d'un projet académique d'un système de géolocalisation pour l'aide aux victimes d'arrêts cardiaque}{en partenariat avec la Croix-Rouge française}{Développement Java Android, serveur en Node.js, interface web en HTML/CSS}{}{}
+\cventry{2015 \footnotesize{sept. -- mai}}{Developpement d'un projet académique d'un système de géolocalisation pour l'aide aux victimes d'arrêts cardiaque}{en partenariat avec la Croix-Rouge française}{Développement Java Android, serveur en Node.js, interface web en HTML/CSS}{}{}
 
 %JOBSERVICE
-\cvitem{2014--2015}{Webmaster d'une association étudiante d'intérim}
+\cvitem{2014--2015}{\textbf{Webmaster} d'une association étudiante d'intérim}
 
 %GARAGISTE
 \cvitem{2014}{Emploi d'agent d'entretien qualifié au service garage du CHS de la Savoie}
@@ -133,24 +133,23 @@
 \cvitem{}{\textsc{c} / \textsc{c++} / \textsc{c\#} / \textsc{java} / \textsc{python} / \LaTeX / Matlab / Linux}
 
 \cvitem{Électronique}{Programmation en assembleur et en C sur microcontrôleurs PIC16F et PIC18F}
-\cvitem{}{Développement d’applications de traitement de signal sur DSP blackfin}
+\cvitem{}{Développement d’applications de traitement de signal sur DSP Blackfin}
 \cvitem{}{Développement en VHDL sur FPGA}
 \cvitem{}{Programmation sur cartes de développement Arduino et Raspberry Pi}
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Informations complémentaires}
+\section{Centre d'interêts}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
+\cvlistdoubleitem{Pratique du cyclisme en compétition (10 ans)}{Pratique de l'athlétisme en compétition (2014)}
+\cvlistdoubleitem{A été guitariste dans un groupe de musique}{}
 
 %----------------------------------------------------------------------------------------
 %	COVER LETTER
