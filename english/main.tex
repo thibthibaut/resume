@@ -25,39 +25,7 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-
-\usepackage{geometry} % Reduce document margins
-\geometry{hmargin=1cm,vmargin=1cm}
-\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{5cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\firstname{Thibaut} % Your first name
-\familyname{Vercueil} % Your last name
-
-% All information in this block is optional, comment out any lines you don't need
-%\title{Curriculum Vitae}
-\address{61 rue Vasco de Gama}{75015 Paris}
-\mobile{+33 7 81 56 65 81}
-%\phone{(000) 111 1112}
-%\fax{(000) 111 1113}
-\email{thibaut@europe.com}
-
-
-
-%http://docdro.id/eAS4zmk
+\input{../include.tex}
 
 
 %\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
@@ -94,23 +62,23 @@
 
 %------------------------------------------------
 
-\cventry{2008--2011}{High-School Diploma}{\textsc{Lycée du Granier}}{La Ravoire (France)}{}{Science }
+\cventry{2008--2011}{High-School Diploma}{\textsc{Lycée du Granier}}{La Ravoire (France)}{}{Specialty Science -- Option Mathematics}
 
 
 
 \section{Experience}
 
 %HARVARD
-\cventry{2015 \footnotesize{may -- august}}{Internship in Harvard University (School of Engineering and Applied Sciences)}{Massachusetts, USA}{}{}{Building of a web-based content management system for the research group of Eric Mazur}
+\cventry{2015 \footnotesize{may -- aug.}}{Internship in Harvard University (School of Engineering and Applied Sciences)}{Massachusetts, USA}{}{}{Building a new web-based content management system for the research group of Eric Mazur}
 
 %GEOSAVE
-\cventry{2015 \footnotesize{sept. -- may}}{Development of a rescuers tracking system for heart attack victims assistance}{in partnership with French Red Cross}{Personal involvement : Development of a website dedicated to the rescue-center, set-up of a Node.js server, creation of an Android application dedicated to rescuers}{}{}
+\cventry{2015 \footnotesize{sept. -- may}}{Development of a rescuers tracking system for heart attack victims assistance}{in partnership with French Red Cross}{Development of a website dedicated to the rescue-center, set-up of a Node.js server, creation of an Android application dedicated to rescuers}{}{}
 
 %JOBSERVICE
-\cvitem{2014--2015}{\textbf{Webmaster} in a student association}
+\cvitem{2014--2015}{\textbf{Webmaster} in a student association -- Creation of a new website for the association using \textsc{PHP}, \textsc{MySQL}, \textsc{HTML/CSS} and \textsc{JQuery}}
 
 %GARAGISTE
-\cvitem{2014}{Employment as a driver in the garage of Chambéry general hospital (France)}
+\cvitem{2014 \footnotesize{july -- aug.} }{Employment as a driver in the garage of Chambéry general hospital (France)}
 
 %----------------------------------------------------------------------------------------
 %	Compétences
@@ -138,10 +106,10 @@
 \cvitem{Computer}{\textbf{Web :} \textsc{html / css / javascript / jquery / php / sql / node.js}}
 \cvitem{}{\textsc{c} / \textsc{c++} / \textsc{c\#} / \textsc{java} / \textsc{python} / \LaTeX / Matlab / Linux}
 
-\cvitem{Electronic}{Programmation en assembleur et en C sur microcontrôleurs PIC16F et PIC18F}
-\cvitem{}{Développement d’applications de traitement de signal sur DSP Blackfin}
-\cvitem{}{Développement en VHDL sur FPGA}
-\cvitem{}{Programmation sur cartes de développement Arduino et Raspberry Pi}
+\cvitem{Electronic}{Programming in Assembly and C on Microchip PIC16F and PIC18F micro-controllers}
+\cvitem{}{Developing signal processing applications on Blackfin DSPs}
+\cvitem{}{Developing in VHDL on FPGAs}
+\cvitem{}{Programing on Arduino developpment boards and Raspberry Pi}
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
 %---------------------------------------------------------------------------------------
@@ -150,13 +118,13 @@
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Centres d'interêts}
+\section{Miscellaneous}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Pratique du cyclisme en compétition (10 ans)}{Pratique de l'athlétisme en compétition (2014)}
-\cvlistdoubleitem{A été guitariste dans un groupe de musique}{}
-
+\cvlistdoubleitem{Has been guitarist in a music band}{Practices athletics}
+\cvlistitem{Has practiced cycling at competition level during 10 years}
+%
 %----------------------------------------------------------------------------------------
 %	COVER LETTER
 %----------------------------------------------------------------------------------------
